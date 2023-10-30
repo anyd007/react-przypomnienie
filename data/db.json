@@ -1,0 +1,34 @@
+{
+  "blogs": [
+    {
+      "title": "Rok psa 1",
+      "body": "loerm ipsum1",
+      "author": "Andrzej",
+      "id": 1
+    },
+    {
+      "title": "Rok psa 2",
+      "body": "loerm ipsum2",
+      "author": "Mariola",
+      "id": 2
+    },
+    {
+      "title": "fdg",
+      "body": "dfgfdg",
+      "author": "mariola",
+      "id": 3
+    },
+    {
+      "title": "dfgfd",
+      "body": "dfgfdg",
+      "author": "",
+      "id": 4
+    },
+    {
+      "title": "sdfsdf",
+      "body": "sdfdsf",
+      "author": "mariola",
+      "id": 5
+    }
+  ]
+}
