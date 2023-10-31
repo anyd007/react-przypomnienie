@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+
 
 const Create = () => {
 
@@ -6,6 +8,7 @@ const Create = () => {
     const [body, setBody] = useState('')
     const [author, setAuthor] = useState('')
     const [isPanding, setIsPanding] = useState(false)
+   const navigate = useNavigate()
 
     const handleSubmit = (e) => {
         e.preventDefault()
@@ -19,7 +22,9 @@ const Create = () => {
         }).then(()=>{
         console.log("nowy dodany");
         setIsPanding(false)
+        navigate('/')
     })
+ 
     }
     return (
         <div className="create">
